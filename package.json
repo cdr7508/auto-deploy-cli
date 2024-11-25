@@ -1,0 +1,31 @@
+{
+    "name": "auto-deploy-cli",
+    "version": "1.0.0",
+    "description": "A cli tool for web deploy.",
+    "bin": {
+        "deploy": "./bin/index.js"
+    },
+    "keywords": [
+        "web",
+        "node-ssh",
+        "deploy"
+    ],
+    "author": "cdr",
+    "license": "ISC",
+    "engines": {
+        "node": ">=9.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cdr7508/auto-deploy-cli"
+    },
+    "dependencies": {
+        "archiver": "^3.1.1",
+        "chalk": "^3.0.0",
+        "commander": "^4.1.0",
+        "inquirer": "^7.0.3",
+        "node-ssh": "^7.0.0",
+        "ora": "^4.0.3",
+        "semver": "^7.1.1"
+    }
+}
