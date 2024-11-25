@@ -1,4 +1,4 @@
-# @auto-deploy-cli
+# deploy-cli
 前端轻量化部署脚手架，支持测试、线上等多环境部署，支持环境配置扩展，配置好后仅需一条命令即可完成整个部署流程。
 
 本项目是在[fe-deploy-cli](https://github.com/dadaiwei/fe-deploy-cli)基础上进行二次开发的，支持在项目同步到服务器后在服务器运行相关指令,并且支持配置是否运行脚本的提醒。
@@ -7,7 +7,7 @@
 https://github.com/cdr7508/auto-deploy-cli
 
 ## npm地址：
-https://www.npmjs.com/package/@auto-deploy-cli
+https://www.npmjs.com/package/@cdr7508/deploy-cli
 
 
 ## 适用对象
@@ -17,9 +17,9 @@ https://www.npmjs.com/package/@auto-deploy-cli
 能通过ssh连上服务器即可
 
 ## 安装
-全局安装auto-deploy-cli
+全局安装deploy-cli
 ```
-npm i @auto-deploy-cli -g
+npm i @cdr7508/deploy-cli -g
 ```
 查看版本，表示安装成功。
 
